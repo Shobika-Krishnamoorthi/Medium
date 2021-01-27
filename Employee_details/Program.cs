@@ -39,6 +39,8 @@ namespace Employee_details
                 goto Reenter_details;
             }
 
+            PrintEmployee();
+
             void PrintEmployee()
             {
                 Console.WriteLine("Please enter the employee ID");
@@ -72,10 +74,9 @@ namespace Employee_details
 
 
             //2. Entering the employee details,Sorting and printing the employee details
+
             //SortAndPrintEmployees();
             //PrintEmployee();
-
-
 
 
             //3.Entering the employee details,sorting and Finding the employee details using employee name
